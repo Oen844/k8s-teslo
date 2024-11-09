@@ -35,5 +35,6 @@ spec:
     app: postgres
   ports:
     - protocol: TCP
-      port: 5432  
+      port: 5432 # cualquier puerto
       targetPort: 5432
+      
